@@ -3,6 +3,7 @@
 **Empowering Citizens. Verifying Action. Resolving Bengaluru.**
 
 [🚀 View Live Site](https://bengaluru-sahaya-portal.vercel.app)
+[⚙️ Backend API](https://public-grievance-portal.onrender.com/docs)
 
 Bengaluru Sahaya is a modern, AI-powered civic grievance portal designed to streamline the reporting and resolution of urban issues like garbage accumulation, potholes, water leaks, and electricity faults. By leveraging computer vision and a brutalist design aesthetic, we ensure that every community report is verified, tracked, and resolved with transparency.
 
