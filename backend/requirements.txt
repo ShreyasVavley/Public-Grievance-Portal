@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+motor
+pydantic
+python-dotenv
+twilio
+ultralytics
+opencv-python-headless
+numpy
+pillow
+python-multipart

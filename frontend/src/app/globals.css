@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-blue: #1A237E;
+  --color-warm-neutral: #F5F5F5;
+  --color-action-gold: #FFD600;
+}
+
+:root {
+  --navy-blue: #1A237E;
+  --warm-neutral: #F5F5F5;
+  --action-gold: #FFD600;
+  --heading-font: 'Noto Sans', 'Noto Sans Kannada', sans-serif;
+  --body-font: 'Noto Sans', 'Noto Sans Kannada', sans-serif;
+}
+
+body {
+  background-color: var(--warm-neutral);
+  color: var(--navy-blue);
+  font-family: var(--body-font);
+  font-size: 1.125rem; /* 18px base */
+  line-height: 1.6;
+}
+
+/* Neo-Brutalist Utility Classes */
+.brutalist-card {
+  border: 4px solid var(--navy-blue);
+  box-shadow: 8px 8px 0px var(--navy-blue);
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.brutalist-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 0px var(--navy-blue);
+}
+
+.brutalist-button {
+  border: 4px solid var(--navy-blue);
+  box-shadow: 4px 4px 0px var(--navy-blue);
+  transition: all 0.1s ease;
+}
+
+.brutalist-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px var(--navy-blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+}
+
+/* GIGW 3.0 High Contrast Mode support */
+@media (prefers-contrast: more) {
+  :root {
+    --navy-blue: #000000;
+    --pure-white: #FFFFFF;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
